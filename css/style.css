@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+/* --------------------
+全体構造
+-------------------- */
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+/*
+.page{
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*/
+a {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+/*--------------------
+　　↓↓↓↓ヘッダー↓↓↓↓
+----------------------*/
+header {
+  margin-bottom: 20px;
+  border-bottom: red solid 2px;
+    min-width: 960px;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+header nav {
+  height: 78px;
+  background-color: #000;
+  min-width: 960px;
+}
+header ul {
+  overflow: hidden;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header li {
+  float: left;
+  margin-right: 100px;
+  line-height: 78px;
+}
+header li:first-child {
+  margin-left: 10px;
+}
+header li:last-child {
+  margin-right: 10px;
+}
+header li img {
+  vertical-align: middle;
+}
+/*↓リンク先ボタン↓*/
+/*
+#nav_home{
+  background-image: url("../imge/menu-homehover.png");
+}
+#nav_lesson{
+  background-image: url("../imge/menu-lessonhover.png");
+}
+#nav_teacher{
+  background-image: url("../imge/menu-teacherhover.png");
+}
+#nav_blog{
+  background-image: url("../imge/menu-bloghover.png");
+}
+#nav_contact{
+  background-image: url("../imge/menu-contacthover.png");
+}
+*/
+/*↑リンク先ボタン↑*/
+/*--------------------
+↓↓↓↓ホームメイン↓↓↓↓
+----------------------*/
+.content {
+  overflow: hidden;
+  width: 960px;
+  margin: 0 auto 20px auto;
+}
+.content main {
+  width: 770px;
+  float: left;
+}
+.main {
+  margin-bottom: 50px;
+}
+/*ここから*/
+/*
+.mainimage {
+  position: relative;
+}
+
+.bc {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 600px;
+  height: 110px;
+  right: 60px;
+  bottom: 0;
+}
+.big {
+  margin: 20px auto 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.small {
+  margin: 0 auto 20px auto;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+}
+*/
+/*ここまで*/
+main h2 {
+  padding: 10px 10px 10px 20px;
+  height: 38px;
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  border-bottom: red solid 2px;
+  margin-bottom: 20px;
+}
+.news {
+  margin-bottom: 50px;
+}
+.news li {
+  padding: 0px 0 10px 20px;
+  list-style-type: none;
+}
+.lesson {
+  overflow: hidden;
+}
+.lesson p {
+  font-size: 16px;
+  padding: 0 0 20px 20px;
+}
+.lesson section {
+  float: left;
+  width: 230px;
+  margin: 0 0 10px 20px;
+}
+.lesson figcaption {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.lesson section p {
+  text-align: justify;
+  line-height: 18px;
+  font-size: 14px;
+  padding: 0 0 0 0;
+}
+.lesson a {
+  color: #000;
+  text-decoration: none;
+}
+.lesson a:hover {
+  color: #FF0004;
+}
+.more {
+  clear: both;
+  text-align: right;
+  margin:0 20px 50px 0;
+}
+/*--------------------
+   ↓↓↓↓アサイド↓↓↓↓
+----------------------*/
+.content aside {
+  width: 170px;
+  float: right;
+}
+.ybanner {
+  margin-bottom: 20px;
+}
+.tbanner {
+  margin-bottom: 20px;
+}
+.ibanner {
+  margin-bottom: 20px;
+}
+.mbanner {
+  margin-bottom: 20px;
+}
+/*--------------------
+   ↓↓↓↓フッター↓↓↓↓
+----------------------*/
+footer {
+  clear: both;
+  background-color: #000;
+    min-width: 960px;
+  height: 78px;
+  border-top: red solid 2px;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  line-height: 78px;
+}
+/*--------------------
+↓↓↓↓トップページ↓↓↓↓
+----------------------*/
+/*--------------------
+↓↓↓↓レッスンページ↓↓↓↓
+----------------------*/
+.lessontop {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.lessontop figure {
+  float: left;
+  margin: 0 20px 20px 20px;
+}
+h3 {
+  background-color: #000;
+  color: #fff;
+  width: 310px;
+  height: 38px;
+  border-bottom: red solid 2px;
+  float: right;
+  margin: 0 20px 20px 0;
+  padding: 10px 0 10px 20px;
+  font-weight: normal;
+  font-size: 18px
+}
+.lessontop p {
+  float: right;
+  width: 310px;
+  height: 38px;
+  margin: 0 20px 20px 0;
+  line-height: 18px;
+  font-size: 16px;
+}
+.douga {
+  overflow: hidden;
+}
+.midashi {
+  font-size: 16px;
+  margin: 0 0 20px 20px;
+}
+.douga img{
+  width: 230px;
+  height: 150px;
+}
+.douga section {
+  float: left;
+  width: 230px;
+  margin: 0 0 10px 20px;
+  font-size: 14px;
+}
+.douga figcaption {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  width: 230px;
+}
+/*ここからモーダルCSS*/
+
+/*ここまでモーダルCSS*/
+
+/*--------------------
+↓↓↓↓コンタクトページ↓↓↓↓
+----------------------*/
+.contactpage {
+  width: 460px;
+  margin: 0 0 0 20px;
+}
+.textcontent {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 50px;
+}
+.name {
+  margin-bottom: 20px;
+}
+.name p {
+  line-height: 30px;
+}
+input[type="text"] {
+  width: 430px;
+  height: 30px;
+}
+.email {
+  margin-bottom: 20px;
+}
+.email p {
+  line-height: 30px;
+}
+input[type="email"] {
+  width: 430px;
+  height: 30px;
+}
+.tel {
+  margin-bottom: 20px;
+}
+.tel p {
+  line-height: 30px;
+}
+input[type="tel"] {
+  width: 430px;
+  height: 30px;
+}
+.form {
+  margin-bottom: 20px;
+}
+.form p {
+  line-height: 30px;
+}
+textarea[name="comment"] {
+  width: 430px;
+  height: 230px;
+}
+input[type="submit"]{
+  margin-bottom: 30px;
+}
