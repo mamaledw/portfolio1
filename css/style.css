@@ -92,36 +92,7 @@ header li img {
 .main {
   margin-bottom: 50px;
 }
-/*ここから*/
-/*
-.mainimage {
-  position: relative;
-}
 
-.bc {
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  width: 600px;
-  height: 110px;
-  right: 60px;
-  bottom: 0;
-}
-.big {
-  margin: 20px auto 0 auto;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-}
-.small {
-  margin: 0 auto 20px auto;
-  padding-bottom: 20px;
-  text-align: center;
-  color: #fff;
-  font-size: 16px;
-  line-height: 18px;
-}
-*/
-/*ここまで*/
 main h2 {
   padding: 10px 10px 10px 20px;
   height: 38px;
@@ -212,7 +183,7 @@ footer p {
 ↓↓↓↓トップページ↓↓↓↓
 ----------------------*/
 /*--------------------
-↓↓↓↓レッスンページ↓↓↓↓
+↓↓↓↓レッスン・講師ページ↓↓↓↓
 ----------------------*/
 .lessontop {
   overflow: hidden;
@@ -265,10 +236,37 @@ h3 {
   margin: 10px 0 20px 0;
   width: 230px;
 }
-/*ここからモーダルCSS*/
+/*--------------------
+     ↓↓↓↓講師↓↓↓↓
+----------------------*/
 
-/*ここまでモーダルCSS*/
 
+/*--------------------
+     ↓↓↓↓ブログ↓↓↓↓
+----------------------*/
+.douga {
+  overflow: hidden;
+}
+.midashi {
+  font-size: 16px;
+  margin: 0 0 20px 20px;
+}
+.douga img{
+  width: 230px;
+  height: 150px;
+}
+.douga section {
+  float: left;
+  width: 230px;
+  margin: 0 0 10px 20px;
+  font-size: 14px;
+}
+.douga figcaption {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  width: 230px;
+}
 /*--------------------
 ↓↓↓↓コンタクトページ↓↓↓↓
 ----------------------*/
